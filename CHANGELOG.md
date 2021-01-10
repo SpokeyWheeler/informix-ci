@@ -1,3 +1,9 @@
+## v0.2.2 (2021-01-10)
+
+### Refactor
+
+- **cruft**: remove test script from repo
+
 ## v0.2.1 (2021-01-10)
 
 ### Fix

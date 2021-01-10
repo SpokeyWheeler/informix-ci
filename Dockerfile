@@ -1,0 +1,19 @@
+FROM ibmcom/informix-innovator-c:latest
+
+ENV LD_LIBRARY_PATH=/opt/ibm/informix/lib:/opt/ibm/informix/lib/esql:
+ENV LANG=C.utf8
+ENV BASEDIR=/opt/ibm
+ENV INIT_LOG=/opt/ibm/data/init_status.log
+ENV SCRIPTS=/opt/ibm/scripts
+ENV ONCONFIG=onconfig
+ENV INFORMIXSERVER=informix
+ENV INFORMIX_KSTORE=/opt/ibm/data/kstore
+ENV HOME=/home/informix
+ENV INFORMIX_FILES_DIR=/opt/ibm/files
+ENV INFORMIX_DATA_DIR=/opt/ibm/data
+ENV INFORMIXDIR=/opt/ibm/informix
+ENV INFORMIXSQLHOSTS=/opt/ibm/informix/etc/sqlhosts
+ENV LICENSE=accept
+ENV INFORMIX_CONFIG_DIR=/opt/ibm/config
+ENV INFORMIX_HOME=/home/informix
+ENV PATH=/opt/ibm/informix/bin:.:/home/informix/.local/bin:/home/informix/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/bin

@@ -1,3 +1,9 @@
+## v0.2.1 (2021-01-10)
+
+### Fix
+
+- **dockerfile**: remove mount point
+
 ## v0.2.0 (2021-01-10)
 
 ### Fix

@@ -3,6 +3,8 @@ FROM ibmcom/informix-innovator-c:latest
 WORKDIR /opt/ibm/config
 COPY informix1.sql .
 COPY informix_pops.sh .
+RUN mkdir -p /opt/ibm/files/tmp
+WORKDIR /opt/ibm/files/tmp
 
 ENV BASEDIR=/opt/ibm
 ENV INFORMIX_CONFIG_DIR=/opt/ibm/config
